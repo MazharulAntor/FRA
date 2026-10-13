@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.chroma/
+uploads/
+node_modules/
+dist/
+backend/eval/results.*
+*.pyc
+data/sample_reports/*.pdf
+backend/eval/.work/

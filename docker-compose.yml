@@ -1,0 +1,27 @@
+# Optional: run everything with `docker compose up --build`.
+# Backend: http://localhost:8000/docs   Frontend: http://localhost:5173
+services:
+  backend:
+    build: ./backend
+    env_file: .env
+    environment:
+      CORS_ORIGINS: http://localhost:5173
+      # inside the container, Ollama on the host is reachable here:
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+    ports:
+      - "8000:8000"
+    volumes:
+      - app-data:/data
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: http://localhost:8000
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+volumes:
+  app-data:

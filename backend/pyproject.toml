@@ -1,0 +1,20 @@
+[project]
+name = "financial-analyst-backend"
+version = "0.1.0"
+description = "AI-Powered Financial Analyst: RAG + LangGraph + FastAPI"
+requires-python = ">=3.11"
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "C4", "PIE"]
+ignore = ["E501"]  # long lines are fine in prompts and test data
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
