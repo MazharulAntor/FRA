@@ -1,0 +1,366 @@
+[
+  {
+    "_template": true,
+    "_how_to_use": "Copy this entry for each question. The runner skips it. doc = PDF file name in data/sample_reports/. type = lookup | calculation | comparison | trend | summary. expected_pages = 1-based PDF page numbers (the page index in the PDF viewer, which can differ from the printed page number) where the answer's figures are. expected_value = the figure (lookup) or the correct calculated result (calculation) as a string. expected_unit = unit as written in the report. Aim for 30+ questions across 5 reports.",
+    "doc": "company_2024_annual_report.pdf",
+    "question": "What was total revenue in FY2024?",
+    "type": "lookup",
+    "expected_pages": [
+      45
+    ],
+    "expected_value": "12,345",
+    "expected_unit": "million"
+  },
+  {
+    "doc": "PDF Solutions 2024 Annual Report.pdf",
+    "question": "What were total revenues in 2024?",
+    "type": "lookup",
+    "expected_pages": [
+      55
+    ],
+    "expected_value": "179,465",
+    "expected_unit": "thousand USD"
+  },
+  {
+    "doc": "PDF Solutions 2024 Annual Report.pdf",
+    "question": "What was net income in 2024?",
+    "type": "lookup",
+    "expected_pages": [
+      55
+    ],
+    "expected_value": "4,057",
+    "expected_unit": "thousand USD"
+  },
+  {
+    "doc": "PDF Solutions 2024 Annual Report.pdf",
+    "question": "What were total assets as of December 31, 2024?",
+    "type": "lookup",
+    "expected_pages": [
+      54
+    ],
+    "expected_value": "315,289",
+    "expected_unit": "thousand USD"
+  },
+  {
+    "doc": "PDF Solutions 2024 Annual Report.pdf",
+    "question": "What was net cash provided by operating activities in 2024?",
+    "type": "lookup",
+    "expected_pages": [
+      57
+    ],
+    "expected_value": "9,703",
+    "expected_unit": "thousand USD"
+  },
+  {
+    "doc": "PDF Solutions 2024 Annual Report.pdf",
+    "question": "By what percent did total revenues grow from 2023 to 2024?",
+    "type": "calculation",
+    "expected_pages": [
+      55
+    ],
+    "expected_value": "8.219",
+    "expected_unit": "percent"
+  },
+  {
+    "doc": "PDF Solutions 2024 Annual Report.pdf",
+    "question": "What was the net profit margin in 2024?",
+    "type": "calculation",
+    "expected_pages": [
+      55
+    ],
+    "expected_value": "2.2606",
+    "expected_unit": "percent"
+  },
+  {
+    "doc": "PDF Solutions 2024 Annual Report.pdf",
+    "question": "What was the current ratio at December 31, 2024?",
+    "type": "calculation",
+    "expected_pages": [
+      54
+    ],
+    "expected_value": "3.4022",
+    "expected_unit": "x"
+  },
+  {
+    "doc": "PDF Solutions 2024 Annual Report.pdf",
+    "question": "How did total revenues trend from 2022 to 2024?",
+    "type": "trend",
+    "expected_pages": [
+      55
+    ],
+    "expected_value": "179,465",
+    "expected_unit": "thousand USD"
+  },
+  {
+    "doc": "FINAL Annual Report.pdf",
+    "question": "What were total revenues in 2025?",
+    "type": "lookup",
+    "expected_pages": [
+      57
+    ],
+    "expected_value": "219,024",
+    "expected_unit": "thousand USD"
+  },
+  {
+    "doc": "FINAL Annual Report.pdf",
+    "question": "What was the net income (loss) in 2025?",
+    "type": "lookup",
+    "expected_pages": [
+      57
+    ],
+    "expected_value": "(640)",
+    "expected_unit": "thousand USD"
+  },
+  {
+    "doc": "FINAL Annual Report.pdf",
+    "question": "What was total stockholders' equity at December 31, 2025?",
+    "type": "lookup",
+    "expected_pages": [
+      56
+    ],
+    "expected_value": "271,022",
+    "expected_unit": "thousand USD"
+  },
+  {
+    "doc": "FINAL Annual Report.pdf",
+    "question": "What was long-term debt, net, at December 31, 2025?",
+    "type": "lookup",
+    "expected_pages": [
+      56
+    ],
+    "expected_value": "64,763",
+    "expected_unit": "thousand USD"
+  },
+  {
+    "doc": "FINAL Annual Report.pdf",
+    "question": "By what percent did total revenues grow from 2024 to 2025?",
+    "type": "calculation",
+    "expected_pages": [
+      57
+    ],
+    "expected_value": "22.0427",
+    "expected_unit": "percent"
+  },
+  {
+    "doc": "FINAL Annual Report.pdf",
+    "question": "What was the current ratio at December 31, 2025?",
+    "type": "calculation",
+    "expected_pages": [
+      56
+    ],
+    "expected_value": "2.2797",
+    "expected_unit": "x"
+  },
+  {
+    "doc": "FINAL Annual Report.pdf",
+    "question": "How did cash and cash equivalents at December 31, 2025 compare with 2024?",
+    "type": "comparison",
+    "expected_pages": [
+      56
+    ],
+    "expected_value": "42,220",
+    "expected_unit": "thousand USD",
+    "expected_also": [
+      "48,374"
+    ]
+  },
+  {
+    "doc": "financial-statements-2025-en.pdf",
+    "question": "What were Nestlé's sales in 2025?",
+    "type": "lookup",
+    "expected_pages": [
+      6
+    ],
+    "expected_value": "89,490",
+    "expected_unit": "million CHF"
+  },
+  {
+    "doc": "financial-statements-2025-en.pdf",
+    "question": "What was the operating profit in 2025?",
+    "type": "lookup",
+    "expected_pages": [
+      6
+    ],
+    "expected_value": "12,277",
+    "expected_unit": "million CHF"
+  },
+  {
+    "doc": "financial-statements-2025-en.pdf",
+    "question": "What were total assets at December 31, 2025?",
+    "type": "lookup",
+    "expected_pages": [
+      8
+    ],
+    "expected_value": "127,151",
+    "expected_unit": "million CHF"
+  },
+  {
+    "doc": "financial-statements-2025-en.pdf",
+    "question": "What was basic earnings per share in 2025?",
+    "type": "lookup",
+    "expected_pages": [
+      6
+    ],
+    "expected_value": "3.51",
+    "expected_unit": "CHF"
+  },
+  {
+    "doc": "financial-statements-2025-en.pdf",
+    "question": "What was total equity at December 31, 2025?",
+    "type": "lookup",
+    "expected_pages": [
+      9
+    ],
+    "expected_value": "33,058",
+    "expected_unit": "million CHF"
+  },
+  {
+    "doc": "financial-statements-2025-en.pdf",
+    "question": "By what percent did sales change from 2024 to 2025?",
+    "type": "calculation",
+    "expected_pages": [
+      6
+    ],
+    "expected_value": "-2.0404",
+    "expected_unit": "percent"
+  },
+  {
+    "doc": "financial-statements-2025-en.pdf",
+    "question": "What was the current ratio at December 31, 2025?",
+    "type": "calculation",
+    "expected_pages": [
+      8,
+      9
+    ],
+    "expected_value": "0.7856",
+    "expected_unit": "x"
+  },
+  {
+    "doc": "asic-2025-annual-report-full-report.pdf",
+    "question": "What were ASIC's total expenses in 2024-25?",
+    "type": "lookup",
+    "expected_pages": [
+      139
+    ],
+    "expected_value": "620,865",
+    "expected_unit": "thousand AUD"
+  },
+  {
+    "doc": "asic-2025-annual-report-full-report.pdf",
+    "question": "What was ASIC's surplus in 2024-25?",
+    "type": "lookup",
+    "expected_pages": [
+      139
+    ],
+    "expected_value": "17,999",
+    "expected_unit": "thousand AUD"
+  },
+  {
+    "doc": "asic-2025-annual-report-full-report.pdf",
+    "question": "What were ASIC's total assets at 30 June 2025?",
+    "type": "lookup",
+    "expected_pages": [
+      140
+    ],
+    "expected_value": "455,033",
+    "expected_unit": "thousand AUD"
+  },
+  {
+    "doc": "asic-2025-annual-report-full-report.pdf",
+    "question": "What were ASIC's total liabilities at 30 June 2025?",
+    "type": "lookup",
+    "expected_pages": [
+      140
+    ],
+    "expected_value": "280,237",
+    "expected_unit": "thousand AUD"
+  },
+  {
+    "doc": "asic-2025-annual-report-full-report.pdf",
+    "question": "By what percent did total expenses grow from 2023-24 to 2024-25?",
+    "type": "calculation",
+    "expected_pages": [
+      139
+    ],
+    "expected_value": "20.7937",
+    "expected_unit": "percent"
+  },
+  {
+    "doc": "asic-2025-annual-report-full-report.pdf",
+    "question": "How did employee benefits expense in 2024-25 compare with 2023-24?",
+    "type": "comparison",
+    "expected_pages": [
+      139
+    ],
+    "expected_value": "336,372",
+    "expected_unit": "thousand AUD",
+    "expected_also": [
+      "42,918",
+      "293,454"
+    ]
+  },
+  {
+    "doc": "Department_of_Finance_Annual_Report_2024-25.pdf",
+    "question": "What were the Department of Finance's total departmental expenses in 2024-25?",
+    "type": "lookup",
+    "expected_pages": [
+      135
+    ],
+    "expected_value": "1,503,120",
+    "expected_unit": "thousand AUD"
+  },
+  {
+    "doc": "Department_of_Finance_Annual_Report_2024-25.pdf",
+    "question": "What were the Department of Finance's total departmental assets at 30 June 2025?",
+    "type": "lookup",
+    "expected_pages": [
+      136
+    ],
+    "expected_value": "6,321,461",
+    "expected_unit": "thousand AUD"
+  },
+  {
+    "doc": "Department_of_Finance_Annual_Report_2024-25.pdf",
+    "question": "What were total departmental liabilities at 30 June 2025?",
+    "type": "lookup",
+    "expected_pages": [
+      136
+    ],
+    "expected_value": "2,905,107",
+    "expected_unit": "thousand AUD"
+  },
+  {
+    "doc": "Department_of_Finance_Annual_Report_2024-25.pdf",
+    "question": "What was the departmental insurance claims expense in 2024-25?",
+    "type": "lookup",
+    "expected_pages": [
+      135
+    ],
+    "expected_value": "862,151",
+    "expected_unit": "thousand AUD"
+  },
+  {
+    "doc": "Department_of_Finance_Annual_Report_2024-25.pdf",
+    "question": "By what percent did total departmental expenses grow from 2023-24 to 2024-25?",
+    "type": "calculation",
+    "expected_pages": [
+      135
+    ],
+    "expected_value": "18.7377",
+    "expected_unit": "percent"
+  },
+  {
+    "doc": "Department_of_Finance_Annual_Report_2024-25.pdf",
+    "question": "How did total departmental assets at 30 June 2025 compare with 30 June 2024?",
+    "type": "comparison",
+    "expected_pages": [
+      136
+    ],
+    "expected_value": "6,321,461",
+    "expected_unit": "thousand AUD",
+    "expected_also": [
+      "901,555",
+      "5,419,906"
+    ]
+  }
+]
